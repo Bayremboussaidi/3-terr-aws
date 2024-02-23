@@ -3,3 +3,8 @@ The architecture deployed within AWS is designed to ensure high availability, fa
 Across the private subnets of the AZs, an Auto Scaling Group (ASG) dynamically manages the provisioning and scaling of EC2 instances based on demand, ensuring optimal performance and resource utilization. Additionally, an Application Load Balancer (ALB) is strategically positioned between the AZs to evenly distribute incoming traffic, enhancing the availability and resilience of the application.
 
 the architecture incorporates Relational Database Service (RDS) instances deployed in private subnets of one AZ, providing managed and scalable database solutions for storing application data. To bolster data redundancy and failover capabilities, multi-AZ configurations are employed for critical RDS instances, ensuring continuous operation even in the event of AZ-level failures.
+
+
+
+![Architecture Diagram](3-tier arch_page-0001.jpg)
+
