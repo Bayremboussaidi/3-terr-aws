@@ -6,5 +6,4 @@ the architecture incorporates Relational Database Service (RDS) instances deploy
 
 
 
-![Architecture Diagram](3-tier arch_page-0001.jpg)
 
